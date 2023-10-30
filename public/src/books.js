@@ -5,7 +5,8 @@ function findAuthorById(authors, id) {
 
 function findBookById(books, id) {
   const bookById = books.find((book) => book.id === id);
-  return bookById;}
+  return bookById;
+}
 
 // NOTE: YOU DON'T HAVE TO EDIT THE FUNCTIONS BELOW
 function partitionBooksByBorrowedStatus(books) {
